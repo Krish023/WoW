@@ -21,6 +21,8 @@
 		6161F0D0190622CF00733E82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6161F0B2190622CF00733E82 /* UIKit.framework */; };
 		6161F0D8190622CF00733E82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6161F0D6190622CF00733E82 /* InfoPlist.strings */; };
 		6161F0DA190622CF00733E82 /* WoWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6161F0D9190622CF00733E82 /* WoWTests.m */; };
+		6161F0E919063CA500733E82 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6161F0E819063CA500733E82 /* QuartzCore.framework */; };
+		61760E5019066630000FEDB5 /* direction_board1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 61760E4F19066630000FEDB5 /* direction_board1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		6161F0D5190622CF00733E82 /* WoWTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WoWTests-Info.plist"; sourceTree = "<group>"; };
 		6161F0D7190622CF00733E82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6161F0D9190622CF00733E82 /* WoWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoWTests.m; sourceTree = "<group>"; };
+		6161F0E819063CA500733E82 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		61760E4F19066630000FEDB5 /* direction_board1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = direction_board1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6161F0E919063CA500733E82 /* QuartzCore.framework in Frameworks */,
 				6161F0B1190622CF00733E82 /* CoreGraphics.framework in Frameworks */,
 				6161F0B3190622CF00733E82 /* UIKit.framework in Frameworks */,
 				6161F0AF190622CF00733E82 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		6161F0AD190622CF00733E82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6161F0E819063CA500733E82 /* QuartzCore.framework */,
 				6161F0AE190622CF00733E82 /* Foundation.framework */,
 				6161F0B0190622CF00733E82 /* CoreGraphics.framework */,
 				6161F0B2190622CF00733E82 /* UIKit.framework */,
@@ -112,6 +118,7 @@
 		6161F0B4190622CF00733E82 /* WoW */ = {
 			isa = PBXGroup;
 			children = (
+				61760E4F19066630000FEDB5 /* direction_board1.jpg */,
 				6161F0BD190622CF00733E82 /* AppDelegate.h */,
 				6161F0BE190622CF00733E82 /* AppDelegate.m */,
 				6161F0C0190622CF00733E82 /* Main.storyboard */,
@@ -228,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61760E5019066630000FEDB5 /* direction_board1.jpg in Resources */,
 				6161F0C7190622CF00733E82 /* Images.xcassets in Resources */,
 				6161F0B9190622CF00733E82 /* InfoPlist.strings in Resources */,
 				6161F0C2190622CF00733E82 /* Main.storyboard in Resources */,
@@ -456,6 +464,7 @@
 				6161F0DF190622CF00733E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6161F0E0190622CF00733E82 /* Build configuration list for PBXNativeTarget "WoWTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				6161F0E2190622CF00733E82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
